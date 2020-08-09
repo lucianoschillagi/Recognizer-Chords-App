@@ -1,0 +1,26 @@
+
+FirstScreenUI
+
+    Properties
+        buttonDisabled - Bool - [struct]
+        nextPageName - String - [struct]
+        audioPlayer - AVAudioPlayer - [class]
+        lastChordSound - Int -[struct]
+        aciertos - Int - [struct]
+        desaciertos - Int - [struct]
+        body - View - [protocol]
+
+    Methods
+        chooseMajorOrMinor - () -> () - [function]
+        chooseBetweenMajorChords - () -> () - [function]
+        chooseBetweenMinorChords - () -> () - [function]
+        userChooseMajor - () -> () - [function]
+        userChooseMinor - () -> () - [function]
+        toGameOver - () -> () - [function]
+        toNextLevel - () -> () - [function]
+    
+    |    Property     |   Type         |  Type    |  Description                    |
+    |-----------------|:--------------:|---------:|--------------------------------
+    | buttonDisabled  | Bool           | struct   |
+    | nextPageName    | String         | struct   |
+    | audioPlayer     | AVAudioPlayer  | class    |
